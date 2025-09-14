@@ -5,6 +5,5 @@ import androidx.annotation.StringRes
 
 data class Topic(
 	@DrawableRes var imageResId: Int,
-	@StringRes var name: Int,
-	var topicCoursesAmount: Int
+	@StringRes var name: Int
 )
